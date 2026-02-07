@@ -1,7 +1,7 @@
 # ZeroInput — Gumroad 스토어 & Linktree 완성본
 
 > 작성일: 2026-02-07  
-> 상태: **CEO 리뷰 대기**  
+> 상태: **QA 수정 완료 (2026-02-07)** — Critical/Major/Minor 전건 반영  
 > 기존 "AI Toolkit Lab" → **ZeroInput** 브랜드 통합 완료
 
 ---
@@ -10,16 +10,16 @@
 
 ### 색상 팔레트
 
-| 용도 | 색상 | HEX |
-|------|------|-----|
-| Primary (메인 블루) | 🔵 | `#2563EB` |
-| Accent (그린) | 🟢 | `#10B981` |
-| Dark (배경/텍스트) | ⚫ | `#0F172A` |
-| Light (배경) | ⚪ | `#F1F5F9` |
-| Highlight (강조/CTA) | 🟡 | `#F59E0B` |
+| 용도 | HEX | 미리보기 |
+|------|-----|---------|
+| Primary (메인) | `#2563EB` | 🔵 Blue |
+| Accent (보조) | `#10B981` | 🟢 Emerald |
+| Dark (배경/텍스트) | `#0F172A` | ⚫ Slate 900 |
+| Light (밝은 배경) | `#F1F5F9` | ⚪ Slate 100 |
+| Highlight (강조/CTA) | `#F59E0B` | 🟡 Amber |
 
 ### 폰트
-- **메인 폰트:** Space Grotesk (Bold / Medium / Regular)
+- **메인 폰트:** Space Grotesk (Bold / Medium / Regular) — [Google Fonts 무료 라이선스 (OFL)](https://fonts.google.com/specimen/Space+Grotesk)
 - 헤드라인: Space Grotesk Bold
 - 본문: Space Grotesk Regular
 - CTA 버튼: Space Grotesk Medium, 대문자
@@ -201,11 +201,13 @@ Every single one has been refined until the output is copy-paste ready.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━
 
-⭐ WHAT PEOPLE ARE SAYING:
+⭐ EXPECTED OUTCOMES (예상 결과):
 
-"I replaced my $200/month copywriter with prompt #14."
-"Used the cold email prompt and got a 40% reply rate. Insane."
-"This pack literally pays for itself the first time you use it."
+→ Prompt #14 alone could handle tasks you'd normally outsource to a copywriter.
+→ The cold email prompt is designed to significantly boost your reply rates.
+→ Most users find the pack pays for itself on the very first use.
+
+*Results may vary depending on use case and AI model.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -280,11 +282,11 @@ Less input. More output.
 
 ### 스토어 프로필 업데이트
 
-- [ ] 스토어명: ~~AI Toolkit Lab~~ → **ZeroInput**
+- [ ] 스토어명: **ZeroInput** (구 브랜드 "AI Toolkit Lab" 흔적 완전 제거 확인)
 - [ ] 프로필 이미지: ZI 로고 업로드
 - [ ] 커버 이미지: 브랜드 배너 (1500×500)
 - [ ] Bio: "Less Input. More Output. AI prompts and tools that save you hours every week."
-- [ ] 커스텀 URL: `gumroad.com/zeroinput` (가능한 경우)
+- [ ] 커스텀 URL: `gumroad.com/zeroinput` ⚠️ **[플레이스홀더 — 실제 URL 확정 후 교체 필요]**
 
 ### 프로덕트 등록 순서
 
@@ -296,15 +298,29 @@ Less input. More output.
 ### 업셀 퍼널
 
 ```
-[소셜 미디어 콘텐츠]
-        ↓
-[Linktree] → [무료 리드마그넷 $0]
-                    ↓
-            [이메일 수집 완료]
-                    ↓
-            [Thank You 페이지: 유료 팩 $9.99 업셀]
-                    ↓
-            [3일 후 이메일: 유료 팩 리마인더]
+┌─────────────────────────────────────────────────────────┐
+│                    ZEROINPUT 업셀 퍼널                    │
+├─────────────────────────────────────────────────────────┤
+│                                                         │
+│  1. 유입                                                │
+│     소셜 미디어 콘텐츠 (YouTube / TikTok / Instagram)    │
+│              ↓                                          │
+│  2. 허브                                                │
+│     Linktree 프로필 페이지                               │
+│              ↓                                          │
+│  3. 리드 수집                                            │
+│     Gumroad 무료 리드마그넷 ($0) → 이메일 수집           │
+│              ↓                                          │
+│  4. 즉시 업셀                                            │
+│     Thank You 페이지에서 유료 팩 ($9.99) CTA 노출       │
+│              ↓  (미전환 시)                               │
+│  5. 리마인더                                             │
+│     3일 후 이메일 시퀀스 → 유료 팩 재안내                 │
+│              ↓                                          │
+│  6. 전환 목표                                            │
+│     무료→유료 전환율 5-10% 타겟                          │
+│                                                         │
+└─────────────────────────────────────────────────────────┘
 ```
 
 ---

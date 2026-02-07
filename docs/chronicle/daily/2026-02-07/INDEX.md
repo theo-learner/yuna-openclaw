@@ -20,6 +20,7 @@
 3. [DEV 프로젝트 구조 분석 보고](./meeting/2026-02-07-0216-dev-project-analysis.md) - 코드 아키텍처·기술스택 분석
 4. [QA 프로젝트 구조 분석 보고](./meeting/2026-02-07-0215-qa-project-analysis.md) - 테스트·무결성·보안 분석
 5. [Julian 가이드 분석 보고](./meeting/2026-02-07-0218-julian-guide-analysis.md) - SOUL.md~부록 분석 및 부족사항
+6. [AI 수익화 아이디어 재선정 v2](./meeting/2026-02-07-1327-monetization-ideation-v2.md) - PO·PM·Marketing 3팀 병렬 의견 수렴 + 종합 TOP 10
 
 ### 🗨️ 3. 실시간 대화 로그 (Dialogue Log)
 *발생 즉시 직결 박제한다. (파싱 표준 v2.0 준수)*

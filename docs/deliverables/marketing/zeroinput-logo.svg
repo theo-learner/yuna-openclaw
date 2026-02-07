@@ -1,0 +1,55 @@
+<!-- ZeroInput 로고 (라이트 배경용) -->
+<!-- 컨셉: ∅(공집합/제로) + 커서(입력) + AI 자동화 느낌 -->
+<!-- 미니멀, 모던 디자인 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+  <defs>
+    <!-- AI/자동화를 상징하는 그라디언트 -->
+    <linearGradient id="grad-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6C5CE7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0984E3;stop-opacity:1" />
+    </linearGradient>
+    <!-- 커서 깜빡임 애니메이션 -->
+    <style>
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      .cursor-blink { animation: blink 1.2s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- 로고 마크: ∅ (제로/공집합) 모티브 -->
+  <g transform="translate(10, 10)">
+    <!-- 0의 외곽 원 (살짝 찌그러뜨린 타원 = 모던한 느낌) -->
+    <ellipse cx="42" cy="50" rx="34" ry="42" 
+      fill="none" stroke="url(#grad-light)" stroke-width="6" 
+      stroke-linecap="round"/>
+    <!-- ∅의 사선 (슬래시) — 제로를 표현 -->
+    <line x1="18" y1="82" x2="66" y2="18" 
+      stroke="url(#grad-light)" stroke-width="6" 
+      stroke-linecap="round"/>
+    <!-- 커서 (입력 컨셉): 사선 끝에서 깜빡이는 I-beam 커서 -->
+    <rect x="68" y="12" width="4" height="28" rx="2"
+      fill="#0984E3" class="cursor-blink"/>
+  </g>
+
+  <!-- 워드마크: ZeroInput -->
+  <g transform="translate(100, 10)">
+    <!-- "Zero" — 볼드, 다크 -->
+    <text x="0" y="68" 
+      font-family="-apple-system, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" 
+      font-size="62" font-weight="800" fill="#1a1a2e" 
+      letter-spacing="-2">Zero</text>
+    <!-- "Input" — 라이트 웨이트, 그라디언트 컬러 -->
+    <text x="172" y="68" 
+      font-family="-apple-system, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" 
+      font-size="62" font-weight="300" fill="url(#grad-light)" 
+      letter-spacing="-1">Input</text>
+  </g>
+
+  <!-- 하단 태그라인 (선택 표시) -->
+  <text x="100" y="105" 
+    font-family="-apple-system, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" 
+    font-size="16" font-weight="500" fill="#999" 
+    letter-spacing="4">INTELLIGENT AUTOMATION</text>
+</svg>

@@ -5,7 +5,7 @@
 
 ## 1. Reddit 런칭 게시물 (3개)
 
-### r/ChatGPT — "I've spent 6 months collecting the best ChatGPT prompts - now I'm giving them away for free"
+### r/ChatGPT — "I've been testing the best ChatGPT prompts - now I'm giving them away for free"
 ```
 Hey everyone! Just launched ZeroInput – a free resource hub + premium prompt collection.
 
@@ -16,11 +16,11 @@ Here's what I'm giving away for FREE:
 
 The free pack has saved people hours of prompt engineering. Grab it here to see if it helps your workflow.
 
-For those interested, there's also a $9.99 premium pack on Gumroad with 200+ advanced prompts + video tutorials.
+For those interested, there's also a $9.99 premium pack on Gumroad with 50 advanced prompts + video tutorials.
 
 Would love feedback from this community – what prompts are you struggling with?
 
-[Free Lead Magnet Link]
+[링크 삽입 예정]
 ```
 
 ### r/artificial — "Stop wasting time on bad prompts – here's what actually works with modern AI models"
@@ -39,7 +39,7 @@ Free download available – no email required for the basic pack. Premium collec
 
 Would be great to hear what problems you're trying to solve with AI.
 
-[ZeroInput Free Resource]
+[링크 삽입 예정]
 ```
 
 ### r/productivity — "I tracked my AI usage for 3 months – here's what saved me the most time"
@@ -60,7 +60,7 @@ Also building YouTube/TikTok with short tutorials on each one.
 
 The free pack is genuinely useful – happy to get feedback on what's missing.
 
-[Get Free Prompts]
+[링크 삽입 예정]
 ```
 
 ---
@@ -82,7 +82,7 @@ At scale? Hours saved weekly.
 So I spent 6 months collecting every prompt framework that actually works and just launched ZeroInput.
 
 Free access to 50+ battle-tested prompts.
-Premium: 200+ advanced chains ($9.99).
+Premium: 50 battle-tested prompts ($9.99).
 ```
 
 ### Thread 2: 사용 사례
@@ -136,11 +136,11 @@ Launching this week 🚀
 
 No email required. Just download and use.
 
-Premium ($9.99): 200+ prompts + advanced automation chains
+Premium ($9.99): 50 prompts + automation templates
 
 Who's testing the free pack? Let me know what prompts you need most.
 
-→ [ZeroInput Free Access]
+→ [링크 삽입 예정]
 ```
 
 ### Thread 5: 커뮤니티 초대
@@ -159,7 +159,7 @@ Looking for feedback on:
 
 Let's make prompt engineering less of a guessing game.
 
-[ZeroInput Launch]
+[링크 삽입 예정]
 ```
 
 ---
@@ -198,7 +198,7 @@ Free Pack (No email required):
 - Video tutorials (launching soon on YouTube/TikTok)
 
 Premium Pack ($9.99 on Gumroad):
-- 200+ advanced prompts + chains
+- 50 advanced prompts + chains
 - Automation templates for Zapier/Make
 - Deep-dive tutorials
 - Monthly updates
@@ -209,7 +209,7 @@ The people who figure out how to work with AI (not against it) will outpace ever
 
 That's the gap I'm trying to close with ZeroInput.
 
-→ [ZeroInput Free Access]
+→ [링크 삽입 예정]
 ```
 
 ---
@@ -232,7 +232,7 @@ Free Pack:
 - Video tutorials
 
 Premium Pack ($9.99):
-- 200+ advanced prompts
+- 50 advanced prompts
 - Automation chains (Zapier/Make integration)
 - Deep-dive video courses
 - Monthly updates

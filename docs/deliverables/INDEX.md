@@ -6,6 +6,7 @@
 ---
 
 ## 📁 strategy/ — 전략 문서
+- [AI-MONETIZATION-TOP10-FINAL-20260207.md](./strategy/AI-MONETIZATION-TOP10-FINAL-20260207.md) — **🏆 최종 TOP 10 아이디어 (3팀 종합)**
 - [AI-MONETIZATION-STRATEGY.md](./strategy/AI-MONETIZATION-STRATEGY.md) — Dual Engine 수익화 전략 (PO)
 - [PO_AI_MONETIZATION_TOP10_2026.md](./strategy/PO_AI_MONETIZATION_TOP10_2026.md) — TOP 10 재선정 의견서 (PO)
 

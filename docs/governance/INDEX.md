@@ -9,6 +9,7 @@
 | :--- | :--- | :--- |
 | **인사 관리** | [`personnel/`](./personnel/) | 11인 가재의 인사 카드 및 평가 기록 |
 | **무결성 감사** | [`personnel/audit/`](./personnel/audit/) | 날짜별 시스템 무결성 검수 로그 (AUDIT) |
+| **실행 자동화(MVP)** | [`monitoring/EXECUTION_AUTOMATION_MVP.md`](./monitoring/EXECUTION_AUTOMATION_MVP.md) | Gate 체크/증빙 강제/실패 에스컬레이션 운영 가이드 |
 | **공정 인덱스** | [하단 현황판](#-전사-공정-승인-현황) | 전사 피쳐별 승인 관문(GATE.md) 직결 |
 
 ---

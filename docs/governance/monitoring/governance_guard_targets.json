@@ -2,6 +2,9 @@
   "gate": "docs/business/feature/gajae-bip-service/pm/GATE.md",
   "evidenceTargets": [
     "docs/business/feature/gajae-bip-service/pm/GATE.md",
-    "docs/task/attendant.md"
+    "docs/task/attendant.md",
+    "docs/task/pm.md",
+    "docs/task/dev.md",
+    "docs/task/qa.md"
   ]
 }

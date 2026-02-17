@@ -54,6 +54,9 @@ python3 docs/governance/monitoring/evidence_check.py --file docs/task/attendant.
 2. Evidence check 실행 (증빙 누락 방지)
 3. PASS일 때만 배포/공지/자동화 명령 실행
 
+> 통합 점검 대상은 `governance_guard_targets.json`에서 관리한다.
+> 신규 문서를 guard에 편입할 때는 코드 수정 없이 targets 파일만 갱신한다.
+
 예시 래퍼:
 
 ```bash

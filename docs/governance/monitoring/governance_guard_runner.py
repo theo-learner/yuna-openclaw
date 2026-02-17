@@ -12,16 +12,13 @@ Exit policy (cron-friendly):
 
 from __future__ import annotations
 
+import json
 import subprocess
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
-GATE = ROOT / "docs/business/feature/gajae-bip-service/pm/GATE.md"
-EVIDENCE_TARGETS = [
-    ROOT / "docs/business/feature/gajae-bip-service/pm/GATE.md",
-    ROOT / "docs/task/attendant.md",
-]
+TARGETS_FILE = ROOT / "docs/governance/monitoring/governance_guard_targets.json"
 
 
 def run(cmd: list[str]) -> tuple[int, str]:
@@ -30,15 +27,40 @@ def run(cmd: list[str]) -> tuple[int, str]:
     return p.returncode, out
 
 
+def load_targets() -> tuple[Path, list[Path]]:
+    if not TARGETS_FILE.exists():
+        raise FileNotFoundError(f"targets file not found: {TARGETS_FILE}")
+
+    data = json.loads(TARGETS_FILE.read_text(encoding="utf-8"))
+    gate_rel = data.get("gate")
+    evidence_rel = data.get("evidenceTargets", [])
+
+    if not gate_rel or not isinstance(gate_rel, str):
+        raise ValueError("invalid targets: 'gate' is required")
+    if not isinstance(evidence_rel, list) or not all(isinstance(x, str) for x in evidence_rel):
+        raise ValueError("invalid targets: 'evidenceTargets' must be string[]")
+
+    gate = ROOT / gate_rel
+    evidence = [ROOT / p for p in evidence_rel]
+    return gate, evidence
+
+
 def main() -> int:
     findings: list[str] = []
+
+    try:
+        gate, evidence_targets = load_targets()
+    except Exception as e:
+        print("RUNTIME_ERROR: failed to load guard targets")
+        print(str(e))
+        return 3
 
     # 1) Gate check (bridge: blocked treated as state, not runtime error)
     rc, out = run([
         "python3",
         str(ROOT / "docs/governance/monitoring/gate_precheck_bridge.py"),
         "--gate",
-        str(GATE),
+        str(gate),
     ])
     if rc != 0:
         print("RUNTIME_ERROR: gate bridge execution failed")
@@ -54,7 +76,7 @@ def main() -> int:
         findings.append("GATE_UNKNOWN: unexpected gate output")
 
     # 2) Evidence checks
-    for target in EVIDENCE_TARGETS:
+    for target in evidence_targets:
         rc, out = run([
             "python3",
             str(ROOT / "docs/governance/monitoring/evidence_check.py"),

@@ -1,0 +1,7 @@
+{
+  "gate": "docs/business/feature/gajae-bip-service/pm/GATE.md",
+  "evidenceTargets": [
+    "docs/business/feature/gajae-bip-service/pm/GATE.md",
+    "docs/task/attendant.md"
+  ]
+}

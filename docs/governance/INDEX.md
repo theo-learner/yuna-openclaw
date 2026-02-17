@@ -12,6 +12,7 @@
 | **실행 자동화(MVP)** | [`monitoring/EXECUTION_AUTOMATION_MVP.md`](./monitoring/EXECUTION_AUTOMATION_MVP.md) | Gate 체크/증빙 강제/실패 에스컬레이션 운영 가이드 |
 | **실행형 크론 Guard 정책** | [`monitoring/EXECUTION_CRON_GUARD_POLICY.md`](./monitoring/EXECUTION_CRON_GUARD_POLICY.md) | 실행형 자동화 잡의 Guard 경유 의무 규정 |
 | **로컬 Guard 감사/상태감시** | [`monitoring/local_guard_audit.py`](./monitoring/local_guard_audit.py), [`monitoring/gate_status_watch.py`](./monitoring/gate_status_watch.py) | cron API 호출 없이 로컬 상태 기반 감시 |
+| **운영 Runbook** | [`monitoring/OPERATIONS_RUNBOOK.md`](./monitoring/OPERATIONS_RUNBOOK.md) | 장애/재시도/비활성화/복구 표준 절차 |
 | **공정 인덱스** | [하단 현황판](#-전사-공정-승인-현황) | 전사 피쳐별 승인 관문(GATE.md) 직결 |
 
 ---

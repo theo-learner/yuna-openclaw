@@ -11,7 +11,7 @@
 | **[GAJAE-BIP] Service-MVP v1.7** | **3. RFD** | UX | **DONE** | ✅ **APPROVED** | 2026-02-06 | [Commit](https://github.com/yuna-studio/yuna-openclaw/commit/f3d32c9) |
 | **[GAJAE-BIP] Service-MVP v1.7** | **4. FBD** | UX | **DONE** | ✅ **APPROVED** | 2026-02-06 | [Commit](https://github.com/yuna-studio/yuna-openclaw/commit/489b926) |
 | **[GAJAE-BIP] Service-MVP v1.7** | **5. RFE/RFK** | PM | **DONE** | ⏳ WAITING | 2026-02-06 | [Commit](https://github.com/yuna-studio/yuna-openclaw/commit/f3d32c9) |
-| **[GAJAE-BIP] Service-MVP v1.7** | **6. 기술 구현** | DEV | **INPROGRESS** | ⏳ WAITING | 2026-02-06 | |
+| **[GAJAE-BIP] Service-MVP v1.7** | **6. 기술 구현** | DEV | **INPROGRESS** | ✅ **APPROVED** | 2026-02-17 | |
 
 ---
 

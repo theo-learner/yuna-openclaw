@@ -13,6 +13,7 @@
 | **실행형 크론 Guard 정책** | [`monitoring/EXECUTION_CRON_GUARD_POLICY.md`](./monitoring/EXECUTION_CRON_GUARD_POLICY.md) | 실행형 자동화 잡의 Guard 경유 의무 규정 |
 | **로컬 Guard 감사/상태감시** | [`monitoring/local_guard_audit.py`](./monitoring/local_guard_audit.py), [`monitoring/gate_status_watch.py`](./monitoring/gate_status_watch.py) | cron API 호출 없이 로컬 상태 기반 감시 |
 | **운영 Runbook** | [`monitoring/OPERATIONS_RUNBOOK.md`](./monitoring/OPERATIONS_RUNBOOK.md) | 장애/재시도/비활성화/복구 표준 절차 |
+| **자율성 검증 체크리스트** | [`monitoring/AUTONOMY_VALIDATION_CHECKLIST.md`](./monitoring/AUTONOMY_VALIDATION_CHECKLIST.md) | NO_REPLY/예외보고 체계 정량 검증 템플릿 |
 | **공정 인덱스** | [하단 현황판](#-전사-공정-승인-현황) | 전사 피쳐별 승인 관문(GATE.md) 직결 |
 
 ---
